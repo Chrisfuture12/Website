@@ -1,0 +1,708 @@
+bahtml, body, span, section, footer, div, nav, ul, li, a{
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+font: inherit;
+
+}
+
+body {
+overflow-y: scroll;
+line-height: 18px;	
+font-size: 12px;
+}
+
+#react-root , article, div, footer, header, main, nav, section {
+position: relative;
+padding: 0;
+margin: 0;
+flex-shrink: 0;
+flex-direction: column;
+-ms-flex-negative: 0;
+-ms-flex-direction: column;
+-webkit-box-direction: normal;
+-webkit-box-orient: vertical;
+display: -webkit-flex;
+display: flex;
+display: -ms-flexbox;
+box-sizing: border-box;
+border: 0px solid black;
+align-items: stretch;
+-ms-flex-align: stretch;
+-webkit-box-align: stretch;
+}
+
+#react-root, body, html {
+height: 100%;
+}
+
+.mfd {
+    min-height: 100%;
+    overflow: hidden;	
+}
+
+/* header */
+
+.fixedNB{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	order: 0;
+	-webkit-box-ordinal-group: 0;
+	background-color: #7851a9;
+}
+
+
+.headNavBar {
+	-webkit-box-pack: justify;
+  	  -ms-flex-pack: justify;
+	-ms-flex-direction: row;
+ 	   -ms-flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	order: 0;
+	flex: 1 1 45px;
+	flex-wrap: nowrap;
+	-webkit-box-orient: horizontal;
+   	 -webkit-box-direction: normal;
+	max-width: 100%;
+	align-items: center;
+}
+
+.shnbg {
+	padding: 0px 15px;  
+	background-color: #7851a9;
+	font-size: 15px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 100%;
+    text-transform: uppercase;
+	overflow: hidden;
+}
+
+.ssHBN {
+	order: 0;	
+}
+
+.headNavBar .headll {
+	margin-right: 16px;
+}
+
+.headll {
+	margin-bottom: 3px;
+   	 flex: 1 1 auto;
+    	-webkit-box-flex: 1;
+  	 ms-flex-positive: 1;
+}
+
+.h1 {
+	display: inline-block;
+	margin-right: 15px;
+	
+}
+
+.h1 a{
+	text-decoration: none;
+}
+
+.h1c {
+	color: white;
+}
+
+.suBH {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    text-align: right;
+    order: 1;
+}
+
+.libH {
+	margin-right: 6px;
+}
+
+
+
+
+/*  main  */
+
+.smauk {
+background-color: rgba(240, 240, 240, 0.9);
+}
+
+.sma {
+-webkit-box-flex: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+-webkit-box-ordinal-group: 4;
+-ms-flex-order: 3;
+order: 1;
+}
+
+.artd {
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: column;
+-webkit-box-flex: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+margin: 0 auto 0;
+width: 100%;
+}
+
+.bigPic {
+background-image: url("http://static.panoramio.com/photos/large/43912417.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+
+.WICC1 {
+padding-top: 100px;
+text-align: center;
+font-size: 12px;
+}
+
+
+.tellArt p {
+font-size: 20px;
+}
+
+.tellArt h1 {
+font-size: 60px;
+}
+
+.storyArt {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 200px;
+flex-basis: 200px;
+margin-left: -10px;
+margin-right: -10px;
+text-align: center;
+padding-top: 110px;
+}
+
+.logStart {
+align-self: center;
+-webkit-box-flex: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+margin-top: 12px;
+max-width: 350px;
+padding-bottom: 200px;
+width: 260px;
+}
+
+.LiCh {
+border: 0px solid #d4af37;
+border-radius: 1px;
+margin: 0 0 10px;
+padding: 10px 0;
+}
+
+.dChtlmp {
+margin-bottom: 20px;
+}
+
+.chtlm {
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+
+.chtlmTXT {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-flex-preferred-size: 450px;
+    flex-basis: 450px;
+	line-height: 24px;
+}
+
+
+
+.chtlmTXT h2 {
+font-size: 25px;
+text-align: center;
+
+}
+
+.chtlmTXT p {
+font-size: 20px;
+text-align: center;
+margin-top: 0px;
+}
+
+
+.gbc {
+top: 20px;
+}
+
+.fillSpace {
+	margin: 10px 0px;
+}
+
+.signUpFill , .signUpFillB {
+	bottom: 20px;
+}
+
+.gbc2 {
+display: block;
+position: relative;
+margin-top: 10px
+}
+
+.inputDiv {
+margin-top: 8px;
+}
+
+.fppDiv {
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-flex-direction: normal;
+-webkit-flex-direction: row;
+-ms-flex-direction: row;
+flex-direction: row;
+height: 100%;
+position: absolute;
+right: 8px;
+top: 0px;
+}
+
+.fpp {
+    margin-right: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    color: goldenrod;
+}
+
+.bc1{
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+
+.bc2{
+background-color: #d4af37;
+color: white;
+}
+
+.bc3{
+padding: 1px 8px;
+}
+
+.bc3s{
+padding: 2px 8px;
+}
+
+.bc4 {
+    cursor: pointer;
+}
+
+.bc5CH {
+	padding: 6px 46px;
+	text-decoration: none;
+}
+
+.bc5lI{
+	padding: 6px 109px;
+}
+
+.bc5sU{
+	padding: 6px 105px;
+}
+
+#react-root {
+	z-index: 0;
+}
+
+/* click here to learn more drop */
+
+#headho {
+text-align: center;
+height: 550px;
+
+}
+
+.chtlmInfo1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction:: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    width: 100%;
+}
+
+.chtlmpic1 {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -ms-flex-preferred-size: 300px;
+    flex-basis: 300px;
+   
+}
+
+.IIhdmw {
+	margin: 15px;
+}
+
+.hdiwp {
+	line-height: 23px;
+}
+
+
+/* Quick bio family view profile card*/
+
+.section3hdiw {
+	-ms-flex-item-align: center;
+	align-self: center;
+	-ms-flex-preferred-size: 250px;
+	flex-basis: 250px;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.hdiwp1 {
+	flex-direction: row;
+	margin: 20px auto 0px;
+}
+
+.hdiwp1 p {
+	font-size: 20px;
+}
+
+.qbfview {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 935px;
+    width: 100%;
+}
+
+.qbfvGroup {
+	-ms-flex-item-align: center;
+	align-self: center;
+	-ms-flex-preferred-size: 500px;
+	flex-basis: 500px;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-align: center;
+	flex-direction: row;
+}
+
+
+
+
+  
+.pniQB {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 330px;
+flex-basis: 330px;
+text-align: center;
+margin: 10px;
+
+}
+
+.mptfQB {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 303px;
+flex-basis: 303px;
+text-align: center;
+
+}
+.QBcc {
+    
+}
+
+.c24 {
+    background-color: #7851a9;
+	line-height: 0px;
+}
+
+
+
+.c56 {
+    background-color: #a59db0;
+}
+
+.c56 p {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.hdiw {
+	text-align: center;
+}
+
+.chsls {
+    align-self: center;
+    padding-bottom: 90px;
+}
+
+
+/* Footer */
+
+
+.wpf {
+    order: 2;
+    padding: 0 20px;
+    -webkit-box-ordinal-group: 5;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.fnl {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+
+
+.fnluk {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+
+.fnluk .nbw {
+    max-width: 100%;
+}
+
+.fnluk .bottomWelcome {
+margin-right: 16px;
+}
+
+
+.bottomWelcome {
+    margin-bottom: 3px;
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    ms-flex-positive: 1;
+}
+ 
+ol, ul {
+    list-style: none;
+}
+
+
+
+.Fl {
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-right: 15px;
+}
+
+.Fl a{
+	text-decoration: none;
+	color: goldenrod;
+}
+
+
+.cycc {
+color: palegoldenrod;
+}
+
+
+
+
+
+
+
+
+/* pic */
+
+.genX {
+line-height: 0px;
+height: 90px;
+width: 76.4px;
+border: 1px solid black;
+justify-content: space-between;
+}
+
+.genThree {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 250px;
+flex-direction: row;
+text-align: center;
+margin: auto 10px;
+right: 15px;
+padding-bottom: 50px;
+}
+
+.genOne {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 250px;
+flex-direction: row;
+text-align: center;
+margin: auto 10px;
+left: 120px;
+padding-bottom: 50px;
+}
+
+.genTwo {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 250px;
+flex-direction: row;
+text-align: center;
+margin: auto 10px;
+padding-bottom: 50px;
+right: 18px;
+}
+
+.genFour {
+-ms-flex-item-align: center;
+align-self: center;
+-ms-flex-preferred-size: 250px;
+flex-direction: row;
+text-align: center;
+margin: auto 10px;
+padding-bottom: 50px;
+right: 120px;
+top: 21px;
+}
+
+.genSon {
+	margin-right: 50px;
+}
+
+
+.vertical {
+	width: 1px;
+	height: 95px;
+	position: absolute;
+	border: 1px dotted purple;
+}
+
+#line2 {
+	top: 45px;
+	left: 50%;
+}
+.horizontal {
+	width: 200px;
+	height: 1px;
+	border: 1px dotted purple;
+}
+
+#line1 {
+	top: 45px;
+	
+}
+
+#line11 {
+	top: 117px;
+	
+}
+
+#line12 {
+	top: 140px;
+	right: 105px;
+}
+
+#line21 {
+	top: 119px;
+	height: 20px;
+	left: 0%;
+}
+
+#line22 {
+	top: 119px;
+	left: 100%;
+	Height: 20px;
+}
+
+#line23 {
+	top: 90px;
+	left: -40px;
+	Height: 50px;
+}
+
+#line24 {
+	top: 142px;
+	height: 20px;
+	left: -105px;
+}
+
+#line25 {
+	top: 142px;
+	height: 20px;
+	left: 20px;
+}
+
+.horizontalGenThree {
+	width: 125px;
+	height: 1px;
+	
+}
+
+.horizontalGenThree2 {
+	width: 125px;
+	height: 1px;
+	border: 1px dotted purple;
+}
+
+.verticalGenTwo {
+	width: 1px;
+	height: 75px;
+	position: absolute;
+	border: 1px dotted purple;
+}
+

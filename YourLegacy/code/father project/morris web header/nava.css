@@ -1,0 +1,105 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+
+.container {
+margin: auto;
+padding: 10px;
+max-width: 100%;
+}
+
+.homeClick{
+float: right;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+
+/* color of header */
+.firstLook {
+position: fixed;
+border-radius: 5%;
+width: 100%;
+text-decoration: none;
+color: black;
+z-index: 1001;
+}
+
+.nav {
+word-spacing: .5em;
+list-style-type: none;
+margin: auto;
+padding: 10px 0;
+z-index: 1001;
+background-color: rgba(240,240,240, 0.9);
+text-decoration: none;
+}
+
+/* Word display of header */
+.nav li {
+display: inline;
+text-transform: uppercase;
+margin-right: 25px;
+font-weight: 500;
+color: black;
+text-decoration: none;
+margin-left: 15px;
+}
+
+.bigPic {
+background: url("http://static.panoramio.com/photos/large/43912417.jpg") no-repeat top center;
+background-size: cover;
+background-attachment: fixed;
+height: 700px;
+width: 100%;
+z-index: 1000;
+}
+
+.main {
+position: relative;
+top: 125px;
+text-align: center;
+z-index: 1000;
+}
+
+.main h1 {
+color: White;
+font-weight: 900;
+font-size: 30px;
+margin-top: 0;
+margin-bottom: 50px;
+text-transform: uppercase;
+}
+.btn-Main {
+background-color: grey;
+text-decoration: none;
+text-transform: uppercase;
+padding: 16px 30px;
+font-weight: 900;
+color: white;
+border-radius: 10%;
+}
+
+body{
+background-color: gray;
+}
+
+.about {
+text-align: center;
+}
+
+.about h2{
+font-weight: 700;
+font-size: 30px;
+}
+
+.about p{
+font-size: 20px;
+font-weight: 400;
+}
+
+footer {
+background-color: rgba(240,240,240, 0.9);
+}

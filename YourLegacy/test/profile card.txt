@@ -1,0 +1,36 @@
+<div class="qbfvGroup">
+
+
+
+							<div class= "pniQB QBcc">
+								<div class="qbfvC c24">
+									<h2> MyStory </h2>
+								</div>	
+								<div class="qbfvC c1">
+									<h1> (insert image) </h1>
+								</div>	
+								<div class="qbfvC c24">
+									<h2> (insert name) </h2>
+								</div>
+								<div class="qbfvC c56">
+									<P> Here lies the profile description of the individual </p>
+								</div>
+													
+							</div>
+							
+							<div class="pniQB QBcc">
+								<div class="qbfvC c24">
+									<h2> MyStory </h2>
+								</div>
+								<div class="qbfvC c1">
+									<img src="C:\Users\Chris Morris\Pictures\2016-12/IMG_2085 (2).JPG" height="175px;" width="330px;"/>
+								</div>
+								<div class="qbfvC c24">
+									<h2> Ken Morris Sr. </h2>
+								</div>
+								<div class="qbfvC c56">
+									<P> Here lies the profile regarding the man who created a dynasty. There is no further needed investigation of whom is the greatest of the men within this family. </P>
+								</div>
+							
+							</div>
+						</div>

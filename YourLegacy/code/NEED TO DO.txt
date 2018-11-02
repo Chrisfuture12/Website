@@ -1,0 +1,10 @@
+the port closest to you is the port that shows hdmi!!!
+things to add:
+ 
+
+1)*(needs work) try and see if we can make all the page that currently shows is on 75% of page with a padding or margin on both sides allowing for white space or other color.
+
+
+
+____
+

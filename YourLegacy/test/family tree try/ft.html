@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="C:\Users\Chris Morris\Documents\Castle Core, LLC\YourLegacy\Welcome page\family tree try\family_tree-master/jquery-ui.css">
+  		<script src="C:\Users\Chris Morris\Documents\Castle Core, LLC\YourLegacy\Welcome page\family tree try\family_tree-master/jquery-1.11.0.js"></script>
+ 		<script src="C:\Users\Chris Morris\Documents\Castle Core, LLC\YourLegacy\Welcome page\family tree try\family_tree-master/jquery-ui.js"></script>
+ 		<script src="C:\Users\Chris Morris\Documents\Castle Core, LLC\YourLegacy\Welcome page\family tree try\family_tree-master/ps-family.js"></script>
+ 		<link rel="stylesheet" href="C:\Users\Chris Morris\Documents\Castle Core, LLC\YourLegacy\Welcome page\family tree try\family_tree-master/style.css"/>
+	</head>
+	<body>
+		   <div id="pk-family-tree"></div>
+			 <script>
+       				 $('#pk-family-tree').pk_family();
+				$.send_Family({url: 'save_family.php'})
+ 			</script>		
+			<script>
+				$('#pk-family-tree').pk_family_create({
+       					  data: ''
+ 				    });
+			</script>
+	</body>
+</html>

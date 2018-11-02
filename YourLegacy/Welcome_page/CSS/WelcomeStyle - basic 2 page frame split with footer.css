@@ -1,0 +1,152 @@
+html, body, span, section, footer, div, nav, ul, li, a{
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+font: inherit;
+
+}
+
+body {
+overflow-y: scroll;
+line-height: 18px;	
+font-size: 12px;
+}
+
+#react-root , article, div, footer, header, main, nav, section {
+position: relative;
+padding: 0;
+margin: 0;
+flex-shrink: 0;
+flex-direction: column;
+-ms-flex-negative: 0;
+-ms-flex-direction: column;
+-webkit-box-direction: normal;
+-webkit-box-orient: vertical;
+display: -webkit-flex;
+display: flex;
+display: -ms-flexbox;
+box-sizing: border-box;
+border: 1px solid black;
+align-items: stretch;
+-ms-flex-align: stretch;
+-webkit-box-align: stretch;
+}
+
+#react-root, body, html {
+height: 100%;
+}
+
+.mfd {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.smauk {
+background-color: White;
+}
+
+.sma {
+-webkit-box-flex: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+-webkit-box-ordinal-group: 4;
+-ms-flex-order: 3;
+order: 3;
+}
+
+.artd {
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: column;
+-webkit-box-flex: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+margin: 30px auto 0;
+max-width: 935px;
+width: 100%;
+}
+
+#react-root {
+	z-index: 0;
+}
+
+
+
+
+
+/* Footer */
+.wpf {
+    background-color: white;
+    order: 4;
+    padding: 0 20px;
+    -webkit-box-ordinal-group: 5;
+}
+
+
+.fnl {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+
+
+.fnluk {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+
+.fnluk .nbw {
+    max-width: 100%;
+}
+
+.fnluk .bottomWelcome {
+margin-right: 16px;
+}
+
+
+.bottomWelcome {
+    margin-bottom: 3px;
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    ms-flex-positive: 1;
+}
+ 
+ol, ul {
+    list-style: none;
+}
+
+
+
+.Fl {
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-right: 15px;
+}
+
+.Fl a{
+	text-decoration: none;
+	color: goldenrod;
+}
+
+
+.cycc {
+color: palegoldenrod;
